@@ -2210,7 +2210,7 @@ progress {
 
 .table-primary {
   --bs-table-bg: #4582ec;
-  --bs-table-striped-bg: #4e88ed;
+  --bs-table-striped-bg: #4e88ed;;
   --bs-table-striped-color: #fff;
   --bs-table-active-bg: #588fee;
   --bs-table-active-color: #fff;

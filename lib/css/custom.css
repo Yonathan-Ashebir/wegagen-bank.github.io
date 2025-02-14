@@ -128,7 +128,6 @@
 }
 
 
-
 .yt-blurred {
     filter: blur(2px);
     pointer-events: none;
@@ -146,7 +145,6 @@
 .yt-collapse.show {
     max-height: 600px;
 }
-
 
 
 /* film: a transparent layer covering the whole screen */
@@ -187,7 +185,6 @@
 }
 
 
-
 .yt-progress-bar {
     width: 100%;
     height: 4px;
@@ -197,7 +194,7 @@
     z-index: 2;
 }
 
-.yt-progress-bar>.yt-progress {
+.yt-progress-bar > .yt-progress {
     width: 30%;
     height: 100%;
     display: block;
@@ -312,7 +309,7 @@
     display: inline-block;
 }
 
-.yt-resizable-row>.yt-cell, .yt-resizable-row>* {
+.yt-resizable-row > .yt-cell, .yt-resizable-row > * {
     flex: 1 2;
 }
 
@@ -341,8 +338,8 @@
 }
 
 
-
-.yt-item:not(:first-child) {}
+.yt-item:not(:first-child) {
+}
 
 .yt-item:hover {
     background-color: whitesmoke;
@@ -353,7 +350,7 @@
     pointer-events: all;
 }
 
-.yt-dropdown-menu.show>.yt-item {
+.yt-dropdown-menu.show > .yt-item {
 
     transform: none;
     opacity: 1;
@@ -372,7 +369,7 @@
     transition: var(--default-duration);
 }
 
-.yt-expand-menu:hover>.yt-expand-inner {
+.yt-expand-menu:hover > .yt-expand-inner {
     opacity: 1;
     /* height: unset; */
     pointer-events: all;
@@ -407,11 +404,11 @@
 
 }
 
-.yt-card-view:hover>.yt-card-title {
+.yt-card-view:hover > .yt-card-title {
     background-color: var(--light-primary, red);
 }
 
-.yt-card-view>.yt-card-title:first-child {
+.yt-card-view > .yt-card-title:first-child {
     border-radius: 1px 1px 0px 0px;
 }
 
@@ -431,14 +428,14 @@
     justify-content: space-between;
 }
 
-.yt-property-view>.yt-property {
+.yt-property-view > .yt-property {
     align-self: flex-start;
     margin: 10px 20px 10px 10px;
     color: var(--text-inactive);
     width: max-content;
 }
 
-.yt-property-view>.yt-value {
+.yt-property-view > .yt-value {
     align-self: flex-end;
     margin: 10px 10px 10px 20px;
     color: black;
@@ -479,7 +476,6 @@
 }
 
 
-
 .yt-fade:not(.show) {
     transition-duration: var(--default-duration);
     opacity: 0;
@@ -510,7 +506,8 @@
     transition-duration: var(--default-duration);
 }
 
-form::after {}
+form::after {
+}
 
 /* global overrides */
 .show {

@@ -8435,7 +8435,7 @@ section.u-image:not(.u-hover-box),
     flex: 30 0 50%;
   }
 
-  .u-layout-row>.u-size-29-xl {
+  .u-layout-row>.u-size-29-xl {{
     flex: 0 0 48.33333333%;
     max-width: 48.33333333%;
     min-width: 48.33333333%;
@@ -34618,7 +34618,7 @@ li.active>a.u-button-style.u-button-style.u-border-active-grey-light-3 {
 }
 
 .u-border-white,
-.u-separator-white:after {
+.u-separator-white:after {{
   border-color: #ffffff;
   stroke: #ffffff;
 }

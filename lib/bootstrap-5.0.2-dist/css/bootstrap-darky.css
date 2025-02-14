@@ -3250,7 +3250,7 @@ fieldset:disabled .btn {
 }
 
 .btn-check:focus + .btn-warning, .btn-warning:focus {
-  color: #fff;
+  color: #fff;;
   background-color: #cf850f;
   border-color: #c27d0e;
   box-shadow: 0 0 0 0.25rem rgba(245, 171, 54, 0.5);
@@ -3940,7 +3940,7 @@ fieldset:disabled .btn {
 .dropstart .dropdown-toggle::before {
   display: inline-block;
   margin-right: 0.255em;
-  vertical-align: 0.255em;
+  vertical-align: 0.255em;;
   content: "";
   border-top: 0.3em solid transparent;
   border-right: 0.3em solid;
